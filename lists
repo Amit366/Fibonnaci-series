@@ -1,0 +1,18 @@
+mylist=[1,2,3,4]
+mylist1=['apple','orange','mango','banana']
+print("list 1 is"+" "+str(mylist))
+print("list 2 is"+" "+str(mylist1))
+print(" ")
+mytuple=tuple(mylist)
+mytuple1=tuple(mylist1)
+print("tuple 1 is"+" "+str(mytuple))
+print("tuple 2 is"+" "+str(mytuple1))
+print(" ")
+print("index of '3' is "+" "+str(mytuple.index(3)))
+print("last element of list is"+" "+str(mytuple1[-1]))
+print(" ")
+mydict=dict(zip(mytuple,mytuple1))
+print("dictionary is"+" "+str(mydict))
+print(" ")
+mydict.pop(2)
+print("after deleting an element"+" "+str(mydict))
