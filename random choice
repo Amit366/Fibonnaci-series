@@ -1,0 +1,12 @@
+mylist=[]
+n=int(input("enter number of names"))
+print("enter %d names"%n)
+for i in range(n):
+    x=input()
+    mylist.append(x)
+print(' ')
+m=str(input("enter the pattern to be followed"))
+print(' ')
+for i in mylist:
+    if m in i:
+        print(i)
