@@ -1,0 +1,10 @@
+import array as arr
+a=arr.array('i',[])
+n=int(input("enter number of elements"))
+print("enter %d elements"%n)
+for i in range(n):
+    x=int(input('enter element'))
+    a.append(x)
+for i in a:
+    if i>0:
+        print(i ,end=" ")
